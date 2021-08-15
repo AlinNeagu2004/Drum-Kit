@@ -64,6 +64,7 @@ footer {
 }
 
 .drum {
+  user-select: none;
   outline: none;
   border: 10px solid #404b69;
   font-size: 5rem;
