@@ -21,10 +21,11 @@
 
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-
+  <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
 </head>
 
-<body>
+
+<body onload="loadSound();">
 
   <header>
     <h1 id="title">Drum 🥁 Kit</h1>
@@ -33,13 +34,13 @@
 
   <main>
     <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
+      <button onclick="playTom1();" class="w drum">w</button>
+      <button onclick="playTom2();" class="a drum">a</button>
+      <button onclick="playTom3();" class="s drum">s</button>
+      <button onclick="playTom4();" class="d drum">d</button>
+      <button onclick="playSnare();" class="j drum">j</button>
+      <button onclick="playCrash();" class="k drum">k</button>
+      <button onclick="playKick();" class="l drum">l</button>
     </div>
   </main>
 
