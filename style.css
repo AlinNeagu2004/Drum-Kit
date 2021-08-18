@@ -1,21 +1,38 @@
 /* GENERAL */
 
+:root {
+  --background-clr: #283149;
+  --main-clr: #dbedf3;
+  --shadow-clr: #da0463;
+}
+
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: var(--background-clr);
 }
 
 h1 {
-  font-size: 5rem;
-  color: #dbedf3;
+  font-size: calc(5vw + 2.5rem);
+  color: var(--main-clr);
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #da0463;
+  text-shadow: 3px 0 var(--shadow-clr);
 }
 
 footer {
-  color: #dbedf3;
+  color: var(--main-clr);
   font-family: sans-serif;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.invisible-p {
+  display: none;
+}
+
+/* BUTTONS */
 
 .w {
   background-image: url("images/tom1.png");
@@ -49,18 +66,9 @@ footer {
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
+  box-shadow: 0 3px 4px 0 var(--main-clr);
   opacity: 0.5;
-}
-
-.red {
-  color: red;
 }
 
 .drum {
@@ -71,13 +79,41 @@ footer {
   font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: #da0463;
-  text-shadow: 3px 0 #dbedf3;
+  color: var(--main-clr);
+  text-shadow: 3px 0 var(--shadow-clr);
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
   text-align: center;
   margin: 10px;
   background-color: white;
+  background-repeat: no-repeat;
+}
+
+.drum:nth-child(5),
+.drum:nth-child(6),
+.drum:nth-child(7) {
+  color: var(--shadow-clr);
+  text-shadow: 3px 0 var(--main-clr);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 499px) {
+  h1 {
+    font-size: calc(3vw + 2rem);
+  }
+
+  .drum {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
 }

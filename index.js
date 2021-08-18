@@ -38,9 +38,22 @@ function playKick() {
   createjs.Sound.play("kick");
 }
 
+// Detecting Mobile Devices
+
+if (
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+) {
+  var pButtons = document.querySelectorAll(".drum p");
+  for (var i = 0; i < pButtons.length; i++) {
+    pButtons[i].classList.add("invisible-p");
+  }
+}
+
 // Detecting Button Press for only animation
 
-var drumButtons = document.querySelectorAll(".drum");
+var drumButtons = document.querySelectorAll(".drum p");
 
 for (var i = 0; i < drumButtons.length; i++) {
   drumButtons[i].addEventListener("click", function () {
