@@ -67,11 +67,15 @@ p {
 }
 
 .pressed {
+  -webkit-box-shadow: 0 3px 4px 0 var(--main-clr);
   box-shadow: 0 3px 4px 0 var(--main-clr);
   opacity: 0.5;
 }
 
 .drum {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   outline: none;
   border: 10px solid #404b69;
