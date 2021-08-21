@@ -32,6 +32,10 @@ p {
   display: none;
 }
 
+.desktop-footer {
+  display: inline-block;
+}
+
 /* BUTTONS */
 
 .w {
@@ -73,6 +77,7 @@ p {
 }
 
 .drum {
+  touch-action: manipulation;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

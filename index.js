@@ -49,6 +49,7 @@ if (
   for (var i = 0; i < pButtons.length; i++) {
     pButtons[i].classList.add("invisible-p");
   }
+  document.querySelector("footer p").innerHTML = "Made with ❤️ in Chisinau.";
 }
 
 // Detecting Button Press for only animation
