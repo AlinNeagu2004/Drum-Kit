@@ -2,7 +2,7 @@
 
 **Drum Kit** -  a site in the internet universe which consists of a small drum kit. I give you a challenge, try to make your favorite song.. for example Darth Vader's Theme. Do it & Have Fun!
 
-> <p><a href="alinneagu2004.github.io/drum-kit/">Drum Kit</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/alinneagu/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/alinsvibes/">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:alinneagu10@gmail.com?">Mail</a></p>
+> <p><a href="https://alinneagu2004.github.io/drum-kit/">Drum Kit</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/alinneagu/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/alinsvibes/">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:alinneagu10@gmail.com?">Mail</a></p>
 
 ---
 
